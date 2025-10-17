@@ -10,7 +10,7 @@ T = numel(time);
 E = p;                    % embedding dimension = 10
 theta = 0;                % nonlinearity parameter
 
-sigma_values = [0, 1, 10];  % noise levels
+sigma_values = [0, 1, 4, 6, 8, 10, 12, 14, 20, 25];  % noise levels
 
 for s = 1:length(sigma_values)
     sigma = sigma_values(s);
