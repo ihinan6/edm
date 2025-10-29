@@ -10,7 +10,7 @@ A = [0.1 0.4 0.1 0.2;
 sigma_values = [0, 0.1, 1, 4, 8];  % noise levels
 disp(det(A));
 
-theta = 1;   % nonlinearity weighting
+theta = 0;   % nonlinearity weighting
 E = col;     % embedding dimension = number of species
 
 
